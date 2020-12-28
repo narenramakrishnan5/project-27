@@ -1,5 +1,5 @@
 class rope{
-    constructor(body2,body3,offsetX,offsetY){
+    constructor(body1,body2,offsetX,offsetY){
         this.offsetX=offsetX
         this.offsetY=offsetY
         var opt={
@@ -13,7 +13,7 @@ class rope{
     }
     display(){
        var point1=this.rope.bodyA.position
-       var point2=thid.rope.bodyB.position
+       var point2=this.rope.bodyB.position
        strokeWeight(2)
        var Anchor1X=point1.x
         var Anchor1Y=point1.y
